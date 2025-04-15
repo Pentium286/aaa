@@ -28,7 +28,7 @@ export default (): React.ReactNode => {
           }}
         />
         <Typography.Title level={2} style={{ textAlign: 'center' }}>
-          <SmileTwoTone /> intellectual-platform <HeartTwoTone twoToneColor="#eb2f96" /> You
+          <SmileTwoTone /> dada <HeartTwoTone twoToneColor="#eb2f96" /> You
         </Typography.Title>
       </Card>
       <p style={{ textAlign: 'center', marginTop: 24 }}>
