@@ -1,0 +1,176 @@
+
+.selectLabel {
+    .ant-drawer-footer {
+        display: flex;
+        justify-content: center;
+    }
+    .drawerBtn {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      border-top: 1px solid #e9e9e9;
+      padding: 10px 16px;
+      background-color: #fff;
+      text-align: center;
+    }
+  
+    .drawerTag {
+      .contentTop {
+        margin-bottom: 24px;
+        .btnBox {
+          button {
+            margin-right: 10px;
+          }
+        }
+      }
+  
+      .contentBottom {
+        display: flex;
+        justify-content: space-between;
+        .leftBox {
+            .box(320px,550px);
+            border: 1px solid #F5F5F5;
+            ul.catList {
+                margin: 0;
+                padding: 0;
+                li {
+                  list-style: none;
+                  padding-top: 12px;
+                  padding-bottom: 12px;
+                  padding-left: 15px;
+                  cursor: pointer;
+                  &:hover {
+                    color: #1890ff;
+                  }
+                }
+                .tagDivActive {
+                    color: #262632;
+                    background-color: #fff9f0;
+                }
+            }
+        }
+        .centerBox {
+            .box(320px,550px);
+            border-top: 1px solid #F5F5F5;
+            border-bottom: 1px solid #F5F5F5;
+            .tableWrap {
+                .ant-table-header {
+                  background: #FAFAFD;
+  
+                  th {
+                    padding: 11.5px 16px;
+                    color: #595965;
+                    background: #FAFAFD;
+  
+                    &.ant-table-cell-ellipsis {
+                      padding-left: 8px;
+                    }
+                  }
+                }
+  
+                .ant-table-body {
+                  td {
+                    padding-left: 16px;
+                    padding-top: 9px;
+                    padding-bottom: 9px;
+  
+                    &.ant-table-cell-ellipsis {
+                      padding-left: 8px;
+                    }
+                  }
+                }
+            }
+        }
+        .rightBox {
+            .box(320px,550px);
+            flex-shrink: 0;
+            border: 1px solid #F5F5F5;
+            .title {
+                background: #FAFAFD;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+                height: 46px;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, .65);
+                border-bottom: 1px solid #F5F5F5;
+              }
+      
+              .checkedUl {
+                padding: 0 20px;
+                max-height: 500px;
+                list-style: none;
+                overflow-y: auto;
+                margin-bottom: 0;
+              }
+      
+              .checkedLi {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 46px;
+                line-height: 46px;
+                color: #333;
+                transition: all .1s ease;
+                cursor: pointer;
+      
+                .name {
+                  max-width: 265px;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  transition: all .1s ease;
+                }
+      
+                .del {
+                  width: 16px;
+                  height: 16px;
+                  background: url("https://static.aiwobeauty.com/ailink/tag_01.png?01");
+                  -webkit-background-size: cover;
+                  background-size: cover;
+                  cursor: pointer;
+      
+                  &:hover {
+                    background: url("https://static.aiwobeauty.com/ailink/tag_02.png?01");
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                  }
+                }
+      
+                &:hover {
+                  color: #1890ff;
+                }
+              }
+        }
+      }
+    }
+    .ant-collapse {
+        border: none;
+    }
+    .ant-collapse-content > .ant-collapse-content-box {
+        padding: 0;
+    }
+    .label_collapse {
+        .ant-collapse-item {
+            border-bottom-color: #D9D9E5;
+        }
+        .ant-collapse-header {
+            background-color: #FAFAFD;
+        }
+        .ant-collapse-content {
+            border-top-color: #D9D9E5;
+        }
+    }
+}
+.box(@width,@height) {
+    width: @width;
+    height: @height;
+    overflow-y: scroll;
+}
+  

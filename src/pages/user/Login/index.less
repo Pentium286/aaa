@@ -1,0 +1,36 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background: url('https://aiwo-intellectual.oss-cn-hangzhou.aliyuncs.com/login_01.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content {
+  flex: 1;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+  right: 0;
+}
+
+.loginBg {
+  width: 646px;
+  height: 482px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 2px 12px 0px rgba(255, 134, 48, 0.2);
+  border-radius: 16px;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(12px);
+  margin: 0 auto;
+}
+
+.autoCheck {
+  display: inline-block;
+  width: 100%;
+}

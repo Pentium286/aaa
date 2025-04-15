@@ -1,0 +1,26 @@
+export default {
+  'menu.login': '登录',
+
+  // 
+  "menu.consolePage": "控制台",
+  "menu.contractManagement": "合同管理",
+  "menu.programManagement": "计划管理",
+  "menu.programManagement.productionPlanningBoard": "生产计划看板",
+  "menu.programManagement.planProgressComparison": "计划进度对照",
+  "menu.productionManagement": "生产管理",
+  "menu.productionManagement.forming": "生产管理",
+  "menu.productionManagement.contractTrackingForm": "合同跟踪表",
+  "menu.inventoryManagement": "库存管理",
+  "menu.inventoryManagement.warehouseManagement": "入库管理",
+  "menu.inventoryManagement.notificationOutboundManagement": "通知出库管理",
+  "menu.inventoryManagement.shippingManagement": "发货管理",
+  "menu.inventoryManagement.inventoryManagementPage": "库存管理",
+  "menu.userManagement": "用户管理",
+  "menu.userManagement.organizationalStructureManagement": "组织架构管理",
+  "menu.userManagement.roleManagement": "角色管理",
+  "menu.userManagement.peopleManagement": "人员管理",
+  "menu.userManagement.permissionChangeLog": "权限变更日志",
+  "menu.contractManagement.contractManagementDetailAdd": "新增",
+  "menu.contractManagement.contractManagementDetailEdit": "编辑",
+  "menu.contractManagement.contractManagementDetailView": "查看",
+};

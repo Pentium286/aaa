@@ -1,0 +1,127 @@
+.ReactQuillCustom{
+  .ReactQuill{
+    padding-top: 16px;
+    width: 100%;
+    height: 480px;
+    border-top: 1px solid #F0F0F6;
+  }
+  :global{
+    .ql-container{
+      font-size: 16px;
+      line-height: 26px;
+      overflow-y: auto;
+    }
+    .ql-editor{
+      width: 375px;
+      overflow-y: unset;
+      p{
+        margin: 0;
+        padding: 0;
+      }
+      h6{
+        font-size: 16px;
+        line-height: 26px;
+      }
+      h5{
+        font-size: 18px;
+        line-height: 28px;
+      }
+      h4{
+        font-size: 20px;
+        line-height: 26px;
+      }
+      h3{
+        font-size: 22px;
+        line-height: 30px;
+      }
+      h2{
+        font-size: 26px;
+        line-height: 36px;
+      }
+      h1{
+        font-size: 30px;
+        line-height: 42px;
+      }
+      .ql-size-small{
+        font-size: 14px;
+        line-height: 24px;
+      }
+      .ql-size-large{
+        font-size: 18px;
+        line-height: 28px;
+      }
+      .ql-size-huge{
+        font-size: 20px;
+        line-height: 30px;
+      }
+      ol li:not(.ql-direction-rtl), 
+      ul li:not(.ql-direction-rtl){
+        padding-left: 0;
+      }
+    }
+    // 标题
+    .ql-snow .ql-picker.ql-header .ql-picker-label::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+      content: "文本" !important;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+      content: "标题1" !important;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+      content: "标题2" !important;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+      content: "标题3" !important;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+      content: "标题4" !important;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+      content: "标题5" !important;
+    }
+    .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
+    .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+      content: "标题6" !important;
+    }
+
+    // 字体大小
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=small]::before, 
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=small]::before{
+      content: "小号" !important;
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label::before, 
+    .ql-snow .ql-picker.ql-size .ql-picker-item::before{
+      content: "正常" !important;
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=large]::before, 
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=large]::before{
+      content: "大号" !important;
+    }
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value=huge]::before, 
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value=huge]::before{
+      content: "超大号" !important;
+    }
+  }
+}
+
+.quillUploadModal{
+  .uploadExtra{
+    margin-top: 5px;
+    color: #8C8C98;
+    font-size: 14px;
+    text-align: center;
+  }
+  :global{
+    .jbsUpload{
+      text-align: center;
+    }
+    .ant-upload-list-picture-card .ant-upload-list-item-info:before{
+      left: 0;
+    }
+  }
+}

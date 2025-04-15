@@ -1,0 +1,56 @@
+.jbsUpload {
+  .ant-upload-draggable-list-item {
+    border: 2px dashed rgba(0, 0, 0, 0);
+  }
+
+  .ant-upload-draggable-list-item.drop-over-downward {
+    border-color: #1890ff;
+  }
+
+  .ant-upload-draggable-list-item.drop-over-upward {
+    border-color: #1890ff;
+  }
+
+  .ant-upload-list-picture-card .ant-upload-list-item {
+    height: 102px;
+  }
+
+  .iconJia {
+    font-size: 22px;
+  }
+
+  .iconWenjianshangchuan {
+    font-size: 14px;
+  }
+  .uploadView {
+    width: 363px;
+    height: 80px;
+    background-color: rgb(242, 242, 242);
+    border: none;
+    .text {
+      color: #1890ff;
+      text-decoration: underline;
+    }
+  }
+  .img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+  }
+  .spaneT {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 40px;
+    vertical-align: middle;
+    .spaneC {
+      &:hover {
+        background-color: rgb(242, 242, 242);
+        &:after {
+          content: ' 删除';
+        }
+      }
+    }
+  }
+}
